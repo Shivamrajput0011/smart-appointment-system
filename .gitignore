@@ -1,0 +1,7 @@
+target/
+.idea/
+*.iml
+.vscode/
+# Real database credentials must never be committed
+config/database.properties
+.env

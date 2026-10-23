@@ -1,0 +1,8 @@
+# Sample MySQL configuration (placeholders only).
+# 1. Copy this file to  config/database.properties
+# 2. Replace the placeholders with your real values
+# config/database.properties is listed in .gitignore, so it will not be committed.
+
+spring.datasource.url=jdbc:mysql://localhost:3306/smart_appointment_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+spring.datasource.username=YOUR_MYSQL_USERNAME
+spring.datasource.password=YOUR_MYSQL_PASSWORD
